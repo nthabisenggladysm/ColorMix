@@ -19,7 +19,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+       
         colorView.backgroundColor = .black
         colorView.layer.borderWidth = 5
         colorView.layer.cornerRadius = 20
@@ -71,13 +71,6 @@ class ViewController: UIViewController {
         blueSlider.isEnabled = blueSwitch.isOn
     }
         
-        
-        
-        
-        
-        
-        
-    
     
 }
 
